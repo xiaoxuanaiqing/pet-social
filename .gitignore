@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Source files (gh-pages branch only needs dist)
+src/
+public/
+*.config.js
+tsconfig.json
+package.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build artifacts
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
